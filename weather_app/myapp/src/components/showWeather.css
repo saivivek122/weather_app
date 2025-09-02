@@ -32,6 +32,9 @@ body{
   }
 
   .daily-card {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 5px;
     font-size: 14px;
     padding: 5px;
   }
