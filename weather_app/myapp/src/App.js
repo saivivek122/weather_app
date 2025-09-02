@@ -7,11 +7,11 @@ function App() {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState("");
   const [loader, setLoader] = useState(false);
-  const [suggestions, setSuggestions] = useState([]);
+  const [suggestions,setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
   const isSelecting = useRef(false);
-
+ 
   useEffect(() => {
     const delay = setTimeout(() => {
       if (!isSelecting.current && city.trim() !== "") {
