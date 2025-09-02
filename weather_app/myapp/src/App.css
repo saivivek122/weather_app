@@ -59,3 +59,26 @@ ul.suggestions-list{
   to { transform: rotate(360deg); 
 }
 }
+@media screen and (max-width: 600px) {
+  .search-button {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-button > input{
+    width: 90%;
+    font-size: 16px;
+    padding: 8px;
+  }
+  .search-button > button {
+    width: 30%;
+  }
+
+  .suggestions {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
